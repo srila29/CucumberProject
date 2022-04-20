@@ -1,0 +1,595 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-20T12:30:13.078Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2896747300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "To Sub",
+        "description": "",
+        "id": "this-feature-would-be-creating-a-calculator-for-add-and-subtract;to-sub",
+        "after": [
+          {
+            "result": {
+              "duration": 184756200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1879300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I have opened the Calculator GUI",
+            "match": {
+              "location": "CalculatorSteps.i_have_opened_the_calculator_gui()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2040000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I sub 9 and 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 6
+                },
+                {
+                  "val": "5",
+                  "offset": 12
+                }
+              ],
+              "location": "CalculatorSteps.i_sub_and(int,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3886400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should get 4 as result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 13
+                }
+              ],
+              "location": "CalculatorSteps.i_should_get_as_result(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Rapid"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-20T12:30:16.187Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2091858500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "To add multiple numbers using list",
+        "description": "",
+        "id": "this-feature-would-be-creating-a-calculator-for-add-and-subtract;to-add-multiple-numbers-using-list",
+        "after": [
+          {
+            "result": {
+              "duration": 91140500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 320200,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I have opened the Calculator GUI",
+            "match": {
+              "location": "CalculatorSteps.i_have_opened_the_calculator_gui()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 191663500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I add below numbers using List",
+            "match": {
+              "location": "CalculatorSteps.i_add_below_numbers_using_list(Integer\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "4"
+                ]
+              },
+              {
+                "cells": [
+                  "5"
+                ]
+              },
+              {
+                "cells": [
+                  "7"
+                ]
+              },
+              {
+                "cells": [
+                  "8"
+                ]
+              },
+              {
+                "cells": [
+                  "10"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 505000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I should get 34 as result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "34",
+                  "offset": 13
+                }
+              ],
+              "location": "CalculatorSteps.i_should_get_as_result(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-20T12:30:18.566Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2447625500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "To calculate the total bill of the order based on quantity",
+        "description": "",
+        "id": "this-feature-would-be-creating-a-calculator-for-add-and-subtract;to-calculate-the-total-bill-of-the-order-based-on-quantity",
+        "after": [
+          {
+            "result": {
+              "duration": 193146800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 279000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I have opened the Calculator GUI",
+            "match": {
+              "location": "CalculatorSteps.i_have_opened_the_calculator_gui()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1244200,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I order below items on given quantities",
+            "match": {
+              "location": "CalculatorSteps.i_order_below_items_on_given_quantities(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "coffee",
+                  "1",
+                  "20"
+                ]
+              },
+              {
+                "cells": [
+                  "tea",
+                  "2",
+                  "15"
+                ]
+              },
+              {
+                "cells": [
+                  "burger",
+                  "3",
+                  "25"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 317500,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I should get 125 as result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "125",
+                  "offset": 13
+                }
+              ],
+              "location": "CalculatorSteps.i_should_get_as_result(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be creating a calculator for Add and Subtract",
+    "description": "",
+    "id": "this-feature-would-be-creating-a-calculator-for-add-and-subtract",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Calculator.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8322050300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the application in web browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_the_application_in_web_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-20T12:30:21.211Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2097149200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validate the successful login with test data",
+        "description": "",
+        "id": "this-feature-is-used-to-design-the-login-page-of-the-application;validate-the-successful-login-with-test-data",
+        "after": [
+          {
+            "result": {
+              "duration": 119971800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21249605800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on the login link",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80118300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter the username \"xyz@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xyz@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.i_enter_the_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3079802500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter the password \"Xyz@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Xyz@123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.i_enter_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63384700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click on the login button",
+            "match": {
+              "location": "LoginSteps.click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 270900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should be landed on the welcome page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_welcome_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8305586200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the application in web browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_the_application_in_web_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-20T12:30:56.230Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2738567800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Validate the Negative login with test data",
+        "description": "",
+        "id": "this-feature-is-used-to-design-the-login-page-of-the-application;validate-the-negative-login-with-test-data",
+        "after": [
+          {
+            "result": {
+              "duration": 62624200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33935615300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on the login link",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83759800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I enter the username \"test@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.i_enter_the_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 963418200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I enter the password \"Test1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test1234\"",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.i_enter_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 354007000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "click on the login button",
+            "match": {
+              "location": "LoginSteps.click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 849480000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I should get the error message \"The email or password you have entered is invalid.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The email or password you have entered is invalid.\"",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginSteps.i_should_get_the_error_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is used to design the login page of the application",
+    "description": "",
+    "id": "this-feature-is-used-to-design-the-login-page-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Login.feature",
+    "tags": []
+  }
+]
